@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListItem correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ExpenseListItem
+    amount={195}
+    createdAt={0}
+    description="Gum"
+    id="1"
+    note=""
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <div>
+          <h3
+                    className="list-item__title"
+          >
+                    Gum
+          </h3>
+          <span
+                    className="list-item__subtitle"
+          >
+                    December 31st, 1969
+          </span>
+</div>,
+        <div>
+          <p
+                    className="list-item__subtitle"
+          />
+</div>,
+        <p
+          className="list-item__amount"
+>
+          $1.95
+</p>,
+      ],
+      "className": "list-item",
+      "replace": false,
+      "to": "/edit/1",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="list-item__title"
+>
+              Gum
+</h3>,
+            <span
+              className="list-item__subtitle"
+>
+              December 31st, 1969
+</span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Gum",
+              "className": "list-item__title",
+            },
+            "ref": null,
+            "rendered": "Gum",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "December 31st, 1969",
+              "className": "list-item__subtitle",
+            },
+            "ref": null,
+            "rendered": "December 31st, 1969",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            className="list-item__subtitle"
+/>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+            "className": "list-item__subtitle",
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "p",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "$1.95",
+          "className": "list-item__amount",
+        },
+        "ref": null,
+        "rendered": "$1.95",
+        "type": "p",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div>
+            <h3
+                        className="list-item__title"
+            >
+                        Gum
+            </h3>
+            <span
+                        className="list-item__subtitle"
+            >
+                        December 31st, 1969
+            </span>
+</div>,
+          <div>
+            <p
+                        className="list-item__subtitle"
+            />
+</div>,
+          <p
+            className="list-item__amount"
+>
+            $1.95
+</p>,
+        ],
+        "className": "list-item",
+        "replace": false,
+        "to": "/edit/1",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="list-item__title"
+>
+                Gum
+</h3>,
+              <span
+                className="list-item__subtitle"
+>
+                December 31st, 1969
+</span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Gum",
+                "className": "list-item__title",
+              },
+              "ref": null,
+              "rendered": "Gum",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "December 31st, 1969",
+                "className": "list-item__subtitle",
+              },
+              "ref": null,
+              "rendered": "December 31st, 1969",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p
+              className="list-item__subtitle"
+/>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+              "className": "list-item__subtitle",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "p",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "$1.95",
+            "className": "list-item__amount",
+          },
+          "ref": null,
+          "rendered": "$1.95",
+          "type": "p",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

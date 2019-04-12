@@ -1,0 +1,40 @@
+{
+  "name": "betr-business-client",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.1.1"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "enzyme-to-json": "^3.3.5",
+    "express": "^4.16.4",
+    "jwt-decode": "^2.2.0",
+    "moment": "2.24.0",
+    "node-sass": "^4.11.0",
+    "normalize.css": "8.0.1",
+    "numeral": "^2.0.6",
+    "react": "^16.2.0",
+    "react-addons-shallow-compare": "15.6.0",
+    "react-dates": "12.3.0",
+    "react-dom": "^16.8.6",
+    "react-modal": "2.2.2",
+    "react-redux": "^5.0.4",
+    "react-router-dom": "^4.1.1",
+    "react-test-renderer": "16.0.0",
+    "redux": "^3.6.0",
+    "redux-form": "^7.3.0",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test"
+  }
+}
