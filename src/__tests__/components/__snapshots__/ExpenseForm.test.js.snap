@@ -30,14 +30,71 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         "",
-        <input
+        <select
           autoFocus={true}
           className="input--text"
           onChange={[Function]}
-          placeholder="Description"
-          type="text"
           value="Gum"
-/>,
+>
+          <option>
+                    Please select an option
+          </option>
+          <option
+                    value="Travel"
+          >
+                    Travel
+          </option>
+          <option
+                    value="Entertainment"
+          >
+                    Entertainment
+          </option>
+          <option
+                    value="Internet and Phone Bills"
+          >
+                    Internet and Phone Bills
+          </option>
+          <option
+                    value="Health Insurance Premium"
+          >
+                    Health Insurance Premium
+          </option>
+          <option
+                    value="Meals"
+          >
+                    Meals
+          </option>
+          <option
+                    value="Vehicle Use"
+          >
+                    Vehicle Use
+          </option>
+          <option
+                    value="Education Expenses"
+          >
+                    Education Expenses
+          </option>
+          <option
+                    value="Business Insurance"
+          >
+                    Business Insurance
+          </option>
+          <option
+                    value="Rent"
+          >
+                    Rent
+          </option>
+          <option
+                    value="Advertising"
+          >
+                    Advertising
+          </option>
+          <option
+                    value="Other"
+          >
+                    Other (Please elaborate in detail in notes)
+          </option>
+</select>,
         <input
           className="input--text"
           onChange={[Function]}
@@ -60,7 +117,6 @@ ShallowWrapper {
           horizontalMargin={0}
           id="date"
           initialVisibleMonth={null}
-          inputIconPosition="before"
           isDayBlocked={[Function]}
           isDayHighlighted={[Function]}
           isOutsideRange={[Function]}
@@ -75,11 +131,9 @@ ShallowWrapper {
           onFocusChange={[Function]}
           onNextMonthClick={[Function]}
           onPrevMonthClick={[Function]}
-          openDirection="down"
           orientation="horizontal"
           phrases={
                     Object {
-                              "calendarLabel": "Calendar",
                               "chooseAvailableDate": [Function],
                               "clearDate": "Clear Date",
                               "closeDatePicker": "Close",
@@ -117,7 +171,6 @@ ShallowWrapper {
           screenReaderInputMessage=""
           showClearDate={false}
           showDefaultInputIcon={false}
-          weekDayFormat="dd"
           withFullScreenPortal={false}
           withPortal={false}
 />,
@@ -147,15 +200,217 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "autoFocus": true,
+          "children": Array [
+            <option>
+              Please select an option
+</option>,
+            <option
+              value="Travel"
+>
+              Travel
+</option>,
+            <option
+              value="Entertainment"
+>
+              Entertainment
+</option>,
+            <option
+              value="Internet and Phone Bills"
+>
+              Internet and Phone Bills
+</option>,
+            <option
+              value="Health Insurance Premium"
+>
+              Health Insurance Premium
+</option>,
+            <option
+              value="Meals"
+>
+              Meals
+</option>,
+            <option
+              value="Vehicle Use"
+>
+              Vehicle Use
+</option>,
+            <option
+              value="Education Expenses"
+>
+              Education Expenses
+</option>,
+            <option
+              value="Business Insurance"
+>
+              Business Insurance
+</option>,
+            <option
+              value="Rent"
+>
+              Rent
+</option>,
+            <option
+              value="Advertising"
+>
+              Advertising
+</option>,
+            <option
+              value="Other"
+>
+              Other (Please elaborate in detail in notes)
+</option>,
+          ],
           "className": "input--text",
           "onChange": [Function],
-          "placeholder": "Description",
-          "type": "text",
           "value": "Gum",
         },
         "ref": null,
-        "rendered": null,
-        "type": "input",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Please select an option",
+            },
+            "ref": null,
+            "rendered": "Please select an option",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Travel",
+              "value": "Travel",
+            },
+            "ref": null,
+            "rendered": "Travel",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Entertainment",
+              "value": "Entertainment",
+            },
+            "ref": null,
+            "rendered": "Entertainment",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Internet and Phone Bills",
+              "value": "Internet and Phone Bills",
+            },
+            "ref": null,
+            "rendered": "Internet and Phone Bills",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Health Insurance Premium",
+              "value": "Health Insurance Premium",
+            },
+            "ref": null,
+            "rendered": "Health Insurance Premium",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Meals",
+              "value": "Meals",
+            },
+            "ref": null,
+            "rendered": "Meals",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Vehicle Use",
+              "value": "Vehicle Use",
+            },
+            "ref": null,
+            "rendered": "Vehicle Use",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Education Expenses",
+              "value": "Education Expenses",
+            },
+            "ref": null,
+            "rendered": "Education Expenses",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Business Insurance",
+              "value": "Business Insurance",
+            },
+            "ref": null,
+            "rendered": "Business Insurance",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Rent",
+              "value": "Rent",
+            },
+            "ref": null,
+            "rendered": "Rent",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Advertising",
+              "value": "Advertising",
+            },
+            "ref": null,
+            "rendered": "Advertising",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Other (Please elaborate in detail in notes)",
+              "value": "Other",
+            },
+            "ref": null,
+            "rendered": "Other (Please elaborate in detail in notes)",
+            "type": "option",
+          },
+        ],
+        "type": "select",
       },
       Object {
         "instance": null,
@@ -191,7 +446,6 @@ ShallowWrapper {
           "horizontalMargin": 0,
           "id": "date",
           "initialVisibleMonth": null,
-          "inputIconPosition": "before",
           "isDayBlocked": [Function],
           "isDayHighlighted": [Function],
           "isOutsideRange": [Function],
@@ -206,10 +460,8 @@ ShallowWrapper {
           "onFocusChange": [Function],
           "onNextMonthClick": [Function],
           "onPrevMonthClick": [Function],
-          "openDirection": "down",
           "orientation": "horizontal",
           "phrases": Object {
-            "calendarLabel": "Calendar",
             "chooseAvailableDate": [Function],
             "clearDate": "Clear Date",
             "closeDatePicker": "Close",
@@ -246,7 +498,6 @@ ShallowWrapper {
           "screenReaderInputMessage": "",
           "showClearDate": false,
           "showDefaultInputIcon": false,
-          "weekDayFormat": "dd",
           "withFullScreenPortal": false,
           "withPortal": false,
         },
@@ -305,14 +556,71 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           "",
-          <input
+          <select
             autoFocus={true}
             className="input--text"
             onChange={[Function]}
-            placeholder="Description"
-            type="text"
             value="Gum"
-/>,
+>
+            <option>
+                        Please select an option
+            </option>
+            <option
+                        value="Travel"
+            >
+                        Travel
+            </option>
+            <option
+                        value="Entertainment"
+            >
+                        Entertainment
+            </option>
+            <option
+                        value="Internet and Phone Bills"
+            >
+                        Internet and Phone Bills
+            </option>
+            <option
+                        value="Health Insurance Premium"
+            >
+                        Health Insurance Premium
+            </option>
+            <option
+                        value="Meals"
+            >
+                        Meals
+            </option>
+            <option
+                        value="Vehicle Use"
+            >
+                        Vehicle Use
+            </option>
+            <option
+                        value="Education Expenses"
+            >
+                        Education Expenses
+            </option>
+            <option
+                        value="Business Insurance"
+            >
+                        Business Insurance
+            </option>
+            <option
+                        value="Rent"
+            >
+                        Rent
+            </option>
+            <option
+                        value="Advertising"
+            >
+                        Advertising
+            </option>
+            <option
+                        value="Other"
+            >
+                        Other (Please elaborate in detail in notes)
+            </option>
+</select>,
           <input
             className="input--text"
             onChange={[Function]}
@@ -335,7 +643,6 @@ ShallowWrapper {
             horizontalMargin={0}
             id="date"
             initialVisibleMonth={null}
-            inputIconPosition="before"
             isDayBlocked={[Function]}
             isDayHighlighted={[Function]}
             isOutsideRange={[Function]}
@@ -350,11 +657,9 @@ ShallowWrapper {
             onFocusChange={[Function]}
             onNextMonthClick={[Function]}
             onPrevMonthClick={[Function]}
-            openDirection="down"
             orientation="horizontal"
             phrases={
                         Object {
-                                    "calendarLabel": "Calendar",
                                     "chooseAvailableDate": [Function],
                                     "clearDate": "Clear Date",
                                     "closeDatePicker": "Close",
@@ -392,7 +697,6 @@ ShallowWrapper {
             screenReaderInputMessage=""
             showClearDate={false}
             showDefaultInputIcon={false}
-            weekDayFormat="dd"
             withFullScreenPortal={false}
             withPortal={false}
 />,
@@ -422,15 +726,217 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "autoFocus": true,
+            "children": Array [
+              <option>
+                Please select an option
+</option>,
+              <option
+                value="Travel"
+>
+                Travel
+</option>,
+              <option
+                value="Entertainment"
+>
+                Entertainment
+</option>,
+              <option
+                value="Internet and Phone Bills"
+>
+                Internet and Phone Bills
+</option>,
+              <option
+                value="Health Insurance Premium"
+>
+                Health Insurance Premium
+</option>,
+              <option
+                value="Meals"
+>
+                Meals
+</option>,
+              <option
+                value="Vehicle Use"
+>
+                Vehicle Use
+</option>,
+              <option
+                value="Education Expenses"
+>
+                Education Expenses
+</option>,
+              <option
+                value="Business Insurance"
+>
+                Business Insurance
+</option>,
+              <option
+                value="Rent"
+>
+                Rent
+</option>,
+              <option
+                value="Advertising"
+>
+                Advertising
+</option>,
+              <option
+                value="Other"
+>
+                Other (Please elaborate in detail in notes)
+</option>,
+            ],
             "className": "input--text",
             "onChange": [Function],
-            "placeholder": "Description",
-            "type": "text",
             "value": "Gum",
           },
           "ref": null,
-          "rendered": null,
-          "type": "input",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Please select an option",
+              },
+              "ref": null,
+              "rendered": "Please select an option",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Travel",
+                "value": "Travel",
+              },
+              "ref": null,
+              "rendered": "Travel",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Entertainment",
+                "value": "Entertainment",
+              },
+              "ref": null,
+              "rendered": "Entertainment",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Internet and Phone Bills",
+                "value": "Internet and Phone Bills",
+              },
+              "ref": null,
+              "rendered": "Internet and Phone Bills",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Health Insurance Premium",
+                "value": "Health Insurance Premium",
+              },
+              "ref": null,
+              "rendered": "Health Insurance Premium",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Meals",
+                "value": "Meals",
+              },
+              "ref": null,
+              "rendered": "Meals",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Vehicle Use",
+                "value": "Vehicle Use",
+              },
+              "ref": null,
+              "rendered": "Vehicle Use",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Education Expenses",
+                "value": "Education Expenses",
+              },
+              "ref": null,
+              "rendered": "Education Expenses",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Business Insurance",
+                "value": "Business Insurance",
+              },
+              "ref": null,
+              "rendered": "Business Insurance",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Rent",
+                "value": "Rent",
+              },
+              "ref": null,
+              "rendered": "Rent",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Advertising",
+                "value": "Advertising",
+              },
+              "ref": null,
+              "rendered": "Advertising",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Other (Please elaborate in detail in notes)",
+                "value": "Other",
+              },
+              "ref": null,
+              "rendered": "Other (Please elaborate in detail in notes)",
+              "type": "option",
+            },
+          ],
+          "type": "select",
         },
         Object {
           "instance": null,
@@ -466,7 +972,6 @@ ShallowWrapper {
             "horizontalMargin": 0,
             "id": "date",
             "initialVisibleMonth": null,
-            "inputIconPosition": "before",
             "isDayBlocked": [Function],
             "isDayHighlighted": [Function],
             "isOutsideRange": [Function],
@@ -481,10 +986,8 @@ ShallowWrapper {
             "onFocusChange": [Function],
             "onNextMonthClick": [Function],
             "onPrevMonthClick": [Function],
-            "openDirection": "down",
             "orientation": "horizontal",
             "phrases": Object {
-              "calendarLabel": "Calendar",
               "chooseAvailableDate": [Function],
               "clearDate": "Clear Date",
               "closeDatePicker": "Close",
@@ -521,7 +1024,6 @@ ShallowWrapper {
             "screenReaderInputMessage": "",
             "showClearDate": false,
             "showDefaultInputIcon": false,
-            "weekDayFormat": "dd",
             "withFullScreenPortal": false,
             "withPortal": false,
           },
@@ -586,7 +1088,7 @@ ShallowWrapper {
             "calledByRenderer": false,
           },
           "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
+            "hasShouldComponentUpdateBug": false,
           },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {
@@ -630,14 +1132,71 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         "",
-        <input
+        <select
           autoFocus={true}
           className="input--text"
           onChange={[Function]}
-          placeholder="Description"
-          type="text"
           value="Rent"
-/>,
+>
+          <option>
+                    Please select an option
+          </option>
+          <option
+                    value="Travel"
+          >
+                    Travel
+          </option>
+          <option
+                    value="Entertainment"
+          >
+                    Entertainment
+          </option>
+          <option
+                    value="Internet and Phone Bills"
+          >
+                    Internet and Phone Bills
+          </option>
+          <option
+                    value="Health Insurance Premium"
+          >
+                    Health Insurance Premium
+          </option>
+          <option
+                    value="Meals"
+          >
+                    Meals
+          </option>
+          <option
+                    value="Vehicle Use"
+          >
+                    Vehicle Use
+          </option>
+          <option
+                    value="Education Expenses"
+          >
+                    Education Expenses
+          </option>
+          <option
+                    value="Business Insurance"
+          >
+                    Business Insurance
+          </option>
+          <option
+                    value="Rent"
+          >
+                    Rent
+          </option>
+          <option
+                    value="Advertising"
+          >
+                    Advertising
+          </option>
+          <option
+                    value="Other"
+          >
+                    Other (Please elaborate in detail in notes)
+          </option>
+</select>,
         <input
           className="input--text"
           onChange={[Function]}
@@ -660,7 +1219,6 @@ ShallowWrapper {
           horizontalMargin={0}
           id="date"
           initialVisibleMonth={null}
-          inputIconPosition="before"
           isDayBlocked={[Function]}
           isDayHighlighted={[Function]}
           isOutsideRange={[Function]}
@@ -675,11 +1233,9 @@ ShallowWrapper {
           onFocusChange={[Function]}
           onNextMonthClick={[Function]}
           onPrevMonthClick={[Function]}
-          openDirection="down"
           orientation="horizontal"
           phrases={
                     Object {
-                              "calendarLabel": "Calendar",
                               "chooseAvailableDate": [Function],
                               "clearDate": "Clear Date",
                               "closeDatePicker": "Close",
@@ -717,7 +1273,6 @@ ShallowWrapper {
           screenReaderInputMessage=""
           showClearDate={false}
           showDefaultInputIcon={false}
-          weekDayFormat="dd"
           withFullScreenPortal={false}
           withPortal={false}
 />,
@@ -747,15 +1302,217 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "autoFocus": true,
+          "children": Array [
+            <option>
+              Please select an option
+</option>,
+            <option
+              value="Travel"
+>
+              Travel
+</option>,
+            <option
+              value="Entertainment"
+>
+              Entertainment
+</option>,
+            <option
+              value="Internet and Phone Bills"
+>
+              Internet and Phone Bills
+</option>,
+            <option
+              value="Health Insurance Premium"
+>
+              Health Insurance Premium
+</option>,
+            <option
+              value="Meals"
+>
+              Meals
+</option>,
+            <option
+              value="Vehicle Use"
+>
+              Vehicle Use
+</option>,
+            <option
+              value="Education Expenses"
+>
+              Education Expenses
+</option>,
+            <option
+              value="Business Insurance"
+>
+              Business Insurance
+</option>,
+            <option
+              value="Rent"
+>
+              Rent
+</option>,
+            <option
+              value="Advertising"
+>
+              Advertising
+</option>,
+            <option
+              value="Other"
+>
+              Other (Please elaborate in detail in notes)
+</option>,
+          ],
           "className": "input--text",
           "onChange": [Function],
-          "placeholder": "Description",
-          "type": "text",
           "value": "Rent",
         },
         "ref": null,
-        "rendered": null,
-        "type": "input",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Please select an option",
+            },
+            "ref": null,
+            "rendered": "Please select an option",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Travel",
+              "value": "Travel",
+            },
+            "ref": null,
+            "rendered": "Travel",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Entertainment",
+              "value": "Entertainment",
+            },
+            "ref": null,
+            "rendered": "Entertainment",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Internet and Phone Bills",
+              "value": "Internet and Phone Bills",
+            },
+            "ref": null,
+            "rendered": "Internet and Phone Bills",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Health Insurance Premium",
+              "value": "Health Insurance Premium",
+            },
+            "ref": null,
+            "rendered": "Health Insurance Premium",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Meals",
+              "value": "Meals",
+            },
+            "ref": null,
+            "rendered": "Meals",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Vehicle Use",
+              "value": "Vehicle Use",
+            },
+            "ref": null,
+            "rendered": "Vehicle Use",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Education Expenses",
+              "value": "Education Expenses",
+            },
+            "ref": null,
+            "rendered": "Education Expenses",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Business Insurance",
+              "value": "Business Insurance",
+            },
+            "ref": null,
+            "rendered": "Business Insurance",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Rent",
+              "value": "Rent",
+            },
+            "ref": null,
+            "rendered": "Rent",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Advertising",
+              "value": "Advertising",
+            },
+            "ref": null,
+            "rendered": "Advertising",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Other (Please elaborate in detail in notes)",
+              "value": "Other",
+            },
+            "ref": null,
+            "rendered": "Other (Please elaborate in detail in notes)",
+            "type": "option",
+          },
+        ],
+        "type": "select",
       },
       Object {
         "instance": null,
@@ -791,7 +1548,6 @@ ShallowWrapper {
           "horizontalMargin": 0,
           "id": "date",
           "initialVisibleMonth": null,
-          "inputIconPosition": "before",
           "isDayBlocked": [Function],
           "isDayHighlighted": [Function],
           "isOutsideRange": [Function],
@@ -806,10 +1562,8 @@ ShallowWrapper {
           "onFocusChange": [Function],
           "onNextMonthClick": [Function],
           "onPrevMonthClick": [Function],
-          "openDirection": "down",
           "orientation": "horizontal",
           "phrases": Object {
-            "calendarLabel": "Calendar",
             "chooseAvailableDate": [Function],
             "clearDate": "Clear Date",
             "closeDatePicker": "Close",
@@ -846,7 +1600,6 @@ ShallowWrapper {
           "screenReaderInputMessage": "",
           "showClearDate": false,
           "showDefaultInputIcon": false,
-          "weekDayFormat": "dd",
           "withFullScreenPortal": false,
           "withPortal": false,
         },
@@ -905,14 +1658,71 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           "",
-          <input
+          <select
             autoFocus={true}
             className="input--text"
             onChange={[Function]}
-            placeholder="Description"
-            type="text"
             value="Rent"
-/>,
+>
+            <option>
+                        Please select an option
+            </option>
+            <option
+                        value="Travel"
+            >
+                        Travel
+            </option>
+            <option
+                        value="Entertainment"
+            >
+                        Entertainment
+            </option>
+            <option
+                        value="Internet and Phone Bills"
+            >
+                        Internet and Phone Bills
+            </option>
+            <option
+                        value="Health Insurance Premium"
+            >
+                        Health Insurance Premium
+            </option>
+            <option
+                        value="Meals"
+            >
+                        Meals
+            </option>
+            <option
+                        value="Vehicle Use"
+            >
+                        Vehicle Use
+            </option>
+            <option
+                        value="Education Expenses"
+            >
+                        Education Expenses
+            </option>
+            <option
+                        value="Business Insurance"
+            >
+                        Business Insurance
+            </option>
+            <option
+                        value="Rent"
+            >
+                        Rent
+            </option>
+            <option
+                        value="Advertising"
+            >
+                        Advertising
+            </option>
+            <option
+                        value="Other"
+            >
+                        Other (Please elaborate in detail in notes)
+            </option>
+</select>,
           <input
             className="input--text"
             onChange={[Function]}
@@ -935,7 +1745,6 @@ ShallowWrapper {
             horizontalMargin={0}
             id="date"
             initialVisibleMonth={null}
-            inputIconPosition="before"
             isDayBlocked={[Function]}
             isDayHighlighted={[Function]}
             isOutsideRange={[Function]}
@@ -950,11 +1759,9 @@ ShallowWrapper {
             onFocusChange={[Function]}
             onNextMonthClick={[Function]}
             onPrevMonthClick={[Function]}
-            openDirection="down"
             orientation="horizontal"
             phrases={
                         Object {
-                                    "calendarLabel": "Calendar",
                                     "chooseAvailableDate": [Function],
                                     "clearDate": "Clear Date",
                                     "closeDatePicker": "Close",
@@ -992,7 +1799,6 @@ ShallowWrapper {
             screenReaderInputMessage=""
             showClearDate={false}
             showDefaultInputIcon={false}
-            weekDayFormat="dd"
             withFullScreenPortal={false}
             withPortal={false}
 />,
@@ -1022,15 +1828,217 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "autoFocus": true,
+            "children": Array [
+              <option>
+                Please select an option
+</option>,
+              <option
+                value="Travel"
+>
+                Travel
+</option>,
+              <option
+                value="Entertainment"
+>
+                Entertainment
+</option>,
+              <option
+                value="Internet and Phone Bills"
+>
+                Internet and Phone Bills
+</option>,
+              <option
+                value="Health Insurance Premium"
+>
+                Health Insurance Premium
+</option>,
+              <option
+                value="Meals"
+>
+                Meals
+</option>,
+              <option
+                value="Vehicle Use"
+>
+                Vehicle Use
+</option>,
+              <option
+                value="Education Expenses"
+>
+                Education Expenses
+</option>,
+              <option
+                value="Business Insurance"
+>
+                Business Insurance
+</option>,
+              <option
+                value="Rent"
+>
+                Rent
+</option>,
+              <option
+                value="Advertising"
+>
+                Advertising
+</option>,
+              <option
+                value="Other"
+>
+                Other (Please elaborate in detail in notes)
+</option>,
+            ],
             "className": "input--text",
             "onChange": [Function],
-            "placeholder": "Description",
-            "type": "text",
             "value": "Rent",
           },
           "ref": null,
-          "rendered": null,
-          "type": "input",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Please select an option",
+              },
+              "ref": null,
+              "rendered": "Please select an option",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Travel",
+                "value": "Travel",
+              },
+              "ref": null,
+              "rendered": "Travel",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Entertainment",
+                "value": "Entertainment",
+              },
+              "ref": null,
+              "rendered": "Entertainment",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Internet and Phone Bills",
+                "value": "Internet and Phone Bills",
+              },
+              "ref": null,
+              "rendered": "Internet and Phone Bills",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Health Insurance Premium",
+                "value": "Health Insurance Premium",
+              },
+              "ref": null,
+              "rendered": "Health Insurance Premium",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Meals",
+                "value": "Meals",
+              },
+              "ref": null,
+              "rendered": "Meals",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Vehicle Use",
+                "value": "Vehicle Use",
+              },
+              "ref": null,
+              "rendered": "Vehicle Use",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Education Expenses",
+                "value": "Education Expenses",
+              },
+              "ref": null,
+              "rendered": "Education Expenses",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Business Insurance",
+                "value": "Business Insurance",
+              },
+              "ref": null,
+              "rendered": "Business Insurance",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Rent",
+                "value": "Rent",
+              },
+              "ref": null,
+              "rendered": "Rent",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Advertising",
+                "value": "Advertising",
+              },
+              "ref": null,
+              "rendered": "Advertising",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Other (Please elaborate in detail in notes)",
+                "value": "Other",
+              },
+              "ref": null,
+              "rendered": "Other (Please elaborate in detail in notes)",
+              "type": "option",
+            },
+          ],
+          "type": "select",
         },
         Object {
           "instance": null,
@@ -1066,7 +2074,6 @@ ShallowWrapper {
             "horizontalMargin": 0,
             "id": "date",
             "initialVisibleMonth": null,
-            "inputIconPosition": "before",
             "isDayBlocked": [Function],
             "isDayHighlighted": [Function],
             "isOutsideRange": [Function],
@@ -1081,10 +2088,8 @@ ShallowWrapper {
             "onFocusChange": [Function],
             "onNextMonthClick": [Function],
             "onPrevMonthClick": [Function],
-            "openDirection": "down",
             "orientation": "horizontal",
             "phrases": Object {
-              "calendarLabel": "Calendar",
               "chooseAvailableDate": [Function],
               "clearDate": "Clear Date",
               "closeDatePicker": "Close",
@@ -1121,7 +2126,6 @@ ShallowWrapper {
             "screenReaderInputMessage": "",
             "showClearDate": false,
             "showDefaultInputIcon": false,
-            "weekDayFormat": "dd",
             "withFullScreenPortal": false,
             "withPortal": false,
           },
@@ -1186,7 +2190,7 @@ ShallowWrapper {
             "calledByRenderer": false,
           },
           "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": true,
+            "hasShouldComponentUpdateBug": false,
           },
           "getSnapshotBeforeUpdate": true,
           "setState": Object {

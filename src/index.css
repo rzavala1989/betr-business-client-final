@@ -166,7 +166,7 @@ body {
 }
 */
 
-.dashboard {
+/* .dashboard {
   position: relative;
   z-index: 1;
 }
@@ -183,8 +183,8 @@ body {
   background-size: cover;
   opacity: .4;
   width: 100vw;
-  height: 100vh;
-}
+  height: 100%;
+} */
 
 .add-expense-page {
   position: relative;
@@ -231,6 +231,7 @@ body {
 
 .header-bar {
   background: #4b6e51;
+  border-bottom: 3px solid rgb(47, 73, 47);
 }
 
 .logo {
@@ -262,6 +263,9 @@ body {
    background: #c1d8b7;
    padding: 30px 0;
    margin-bottom: 30px;
+   border-top: 3px solid #153519;
+   border-bottom: 3px solid #153519;
+   box-shadow: 10px 10px 5px grey;
 }
 
 .page-header__title {
