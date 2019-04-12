@@ -1,5 +1,12 @@
- language: node_js
- node_js: node
- cache:
-   directories:
-     - node_modules
+language: node_js
+node_js: node
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: OqRRy9lFt88rGUVVomUx+1Ez1lIq8ohtI3O0A9A29KabK5Sl+zLgj+Xp4PBBGE6Aq8JpE3gtAZAMzvNGIljpRougVE2vyA2Gh691JSblSmtsa6xoqPLgoKgcLkiHruwcTB6CXu28GUbh/qOwcKhx0gEX2VlERPXLH1tZOLNsVBfENRvRCKNdcOXm9kqyB15KAauZqKU44mLMiKeOXXdCZEO/cBDmwYtQ2S9V2I5QYvmKzFQi11xQUEbu62ZaRF3AXwqH9hgRSgPmOIv4IJEGtFJoKKW37Fa/D+JlAiNTyiD0PjC/xk/yMnGMdH2kiaCzMqaXcAGS8toM3lrC+AY8TeEyQdAssGh9uZ/kwWjMC7UU8zIvOqH8VxwWMimY3ZiEx6AwrOF7i7Gd5p1oDtUoWHeCiV7iVOB+gpCG7ALA6Aeyn4jwvCVg9JxKivLy284vs1pR7L0Hdlylh7QL6GsY1t+qtg1sPiOiK0BP2S6FXeOADhy4FZ6RXC6vl+XQdBwK5MiU2Xjl/RhWsr3ZULf4M/YxNBGAYgPGuigmI8ESwcCmUUbFb7sgB8UXpKeAAJR9NueAp9/q+7fvl+Vpr9oCb7GF48NR3nBaovlVdaHCv+3udqpLFlV0AQCmmLkcF9Cxe7ayVTNb1YbQs4LCn6o4NIba4DmrMnV1ub4JU5zaYeA=
+  app: betr-business-client-final
+  on:
+    repo: rzavala1989/betr-business-client-final
