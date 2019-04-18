@@ -14,6 +14,10 @@ export function LandingPage(props) {
         <div className="box-layout">
             <div className="box-layout__box">
                 <h2 className="box-layout__title">Welcome to Do Betr Business!</h2>
+                <br/>
+                <h3>For demo purposes:</h3>
+                <p>username: dbb-demo</p>
+                <p>password: demopassword</p>
                 <LoginForm />
                 <Link to="/register">Register</Link>
             </div>
