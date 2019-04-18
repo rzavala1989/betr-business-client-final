@@ -63,8 +63,9 @@ export default class ExpenseForm extends React.Component {
             value={this.state.description}
             onChange={this.onDescriptionChange}
             autoFocus
+            required
           >
-            <option>Please select an option</option>
+            <option value="">Please select an option</option>
             <option value="Travel">Travel</option>
             <option value="Entertainment">Entertainment</option>
             <option value="Internet and Phone Bills">Internet and Phone Bills</option>

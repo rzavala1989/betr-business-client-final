@@ -57,9 +57,8 @@ export class HeaderBar extends React.Component {
             <header className="header-bar">
               <div className="container">
                 <div className="header__links">
-                  <img className="logo" alt="Do Betr Business website logo" src="/images/dbb-logo.png"/>
-                  <Link className="header-bar__title" to="/dashboard">
-                    <h1>Home Page</h1>
+                  <Link to="/dashboard">
+                   <img className="logo" alt="Do Betr Business website logo" src="/images/dbb-logo.png"/>
                   </Link>
                   <div className="header__right-links">
                     {logOutButton}

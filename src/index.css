@@ -234,9 +234,17 @@ body {
   border-bottom: 3px solid rgb(47, 73, 47);
 }
 
+
 .logo {
   width: 150px;
   margin-right:10%;
+}
+
+@media only screen and (max-width: 380px) {
+  .logo {
+    width: 200px;
+    margin-right:10%;
+  }
 }
 
 .header-bar__title {
@@ -255,6 +263,13 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 12px 0;
+}
+
+@media only screen and (max-width: 380px) {
+  .header__links {
+    display: inline;
+    padding: 10px 0;
+  }
 }
 
 /* COMPILER */
@@ -298,7 +313,7 @@ body {
   font-weight: bold;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 704px) {
   .group {
     flex-direction: row;
     margin-bottom: 30px;
@@ -459,12 +474,12 @@ body {
 /* BOTTOM MARGIN FOR PAGE */
 
 .list-body {
-  margin-bottom: 20px;
+  margin-bottom: 96px;
 }
 
 @media screen and (min-width: 500px) {
   .list-body {
-    margin-bottom: 36px;
+    margin-bottom: 78px;
   }
 }
 
