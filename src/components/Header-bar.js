@@ -35,12 +35,10 @@ export class HeaderBar extends React.Component {
                       <li>Choose the category of tax deductible example (Travel, Entertainment expenses, etc.)</li>
                       <li>Report the amount spent. Please verify via receipt/invoice</li>
                       <li>Record the date in which each expense applies</li>
-                      <li>Please provide a detailed description (location, any pertinent details</li>
+                      <li>Please provide a detailed description</li>
                     </ol>
-                    <ol>To edit or remove an expense:
-                      <li>Click an expense in order to update it</li>
-                      <li>Edit or correct any field which may apply, or remove it</li>
-                    </ol>
+                    <li>Click an expense in order to update it</li>
+                    <li>Edit or correct any field which may apply, or remove it</li>
                     <li>Each expense can be sorted by amount of date via the dashboard</li>
                     <li>Start date and End date filter using the date picker</li>
                 </Modal>
