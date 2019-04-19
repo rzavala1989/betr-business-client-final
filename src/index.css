@@ -582,7 +582,25 @@ footer {
 
 .display-block {
   display: block;
-  margin: 16px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 750px){
+  .modal-main {
+    width: 80%;
+  }
+  .modal-content {
+    padding: 16px;
+  }
+}
+
+@media only screen and (max-width: 475px){
+  .modal-main {
+    width: 90%;
+  }
+  .modal-content {
+    padding: 12px;
+  }
 }
 
 .display-none {

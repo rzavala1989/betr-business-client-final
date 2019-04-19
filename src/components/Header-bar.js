@@ -31,23 +31,18 @@ export class HeaderBar extends React.Component {
               <section className="modal-trigger">
                 <Modal show={this.state.show} handleClose={this.hideModal} >
                   <h1>How to Do Betr Business</h1>
-                  <ul>
-                    <li>To add an expense:</li>
-                      <ol>
-                        <li>Choose the category of tax deductible example (Travel, Entertainment expenses, etc.)</li>
-                        <li>Report the amount spent. Please verify via receipt/invoice</li>
-                        <li>Record the date in which each expense applies</li>
-                        <li>Please provide a detailed description (location, any pertinent details</li>
-                      </ol>
-                    <li>To edit or remove an expense:
-                      <ol>
-                          <li>Click an expense in order to update it</li>
-                          <li>Edit or correct any field which may apply, or remove it altogether</li>
-                      </ol>
-                    </li>
+                    <ol>To add an expense:
+                      <li>Choose the category of tax deductible example (Travel, Entertainment expenses, etc.)</li>
+                      <li>Report the amount spent. Please verify via receipt/invoice</li>
+                      <li>Record the date in which each expense applies</li>
+                      <li>Please provide a detailed description (location, any pertinent details</li>
+                    </ol>
+                    <ol>To edit or remove an expense:
+                      <li>Click an expense in order to update it</li>
+                      <li>Edit or correct any field which may apply, or remove it</li>
+                    </ol>
                     <li>Each expense can be sorted by amount of date via the dashboard</li>
-                    <li>Start date and End date filter must be entered manually in MM/DD/YYYY format</li>
-                  </ul>
+                    <li>Start date and End date filter using the date picker</li>
                 </Modal>
                 <button type='button' className="button-help" onClick={this.showModal}>Help!</button>
               </section>
