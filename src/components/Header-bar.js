@@ -39,7 +39,7 @@ export class HeaderBar extends React.Component {
                     </ol>
                     <li>Click an expense in order to update it</li>
                     <li>Edit or correct any field which may apply, or remove it</li>
-                    <li>Each expense can be sorted by amount of date via the dashboard</li>
+                    <li>Each expense can be sorted by amount or date</li>
                     <li>Start date and End date filter using the date picker</li>
                 </Modal>
                 <button type='button' className="button-help" onClick={this.showModal}>Help!</button>
@@ -71,12 +71,12 @@ const Modal = ({ handleClose, show, children }) => {
     <div className={showHideClassName}>
       <section className='modal-main'>
         <div className="modal-content">
-          {children}
           <button
             onClick={handleClose}
           >
             Close
           </button>
+          {children}
         </div>
       </section>
     </div>
